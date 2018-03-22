@@ -1,0 +1,59 @@
+body {
+  background-color: #333b42;
+  margin-top: 75px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+body label {
+  font-family: arial;
+  font-size: 21px;
+  padding: 10px;
+  color: #333b42;
+
+}
+.name,
+.user,
+.Address,
+.contact,
+.birthdate,
+.address2 {
+  margin: auto;
+  width: 80%;
+  border: 0px solid;
+  padding: 10px;
+}
+
+.name  {
+  height: 100%;
+  width: 100%;
+  background-color: #949494;
+
+}
+.confirm {
+  margin-left: 30%;
+  padding: 50px;
+}
+header {
+  text-align: center;
+  color: #76eec6;
+  margin: 25px;
+  font-family: Verdana;
+  font-size: 30px;
+}
+input {
+    border: none;
+    background-color:#949494;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+    color:white;
+
+}
+input::placeholder {
+    color: white;
+}
+select {
+  font-size: 25px;
+}
+button {
+  font-size: 25px;
+}
